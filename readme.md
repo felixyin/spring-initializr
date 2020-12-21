@@ -5,6 +5,7 @@
 - java11
 - maven3.6
 - nodejs12
+- nohup
 
 ## 启动
 
