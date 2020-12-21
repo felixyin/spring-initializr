@@ -1,0 +1,56 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.1)
+
+2020-12-21 10:43:32.028  INFO 37158 --- [           main] io.spring.start.site.StartApplication    : Starting StartApplication v0.0.1-SNAPSHOT using Java 11.0.9.1 on fy-ubuntu with PID 37158 (/home/fy/workspaces/spring-initializr/start-site-exec.jar started by fy in /home/fy/workspaces/spring-initializr)
+2020-12-21 10:43:32.029  INFO 37158 --- [           main] io.spring.start.site.StartApplication    : No active profile set, falling back to default profiles: default
+2020-12-21 10:43:32.906  INFO 37158 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 20001 (http)
+2020-12-21 10:43:32.913  INFO 37158 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-21 10:43:32.914  INFO 37158 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-21 10:43:32.944  INFO 37158 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-21 10:43:32.944  INFO 37158 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 880 ms
+2020-12-21 10:43:33.511  INFO 37158 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-21 10:43:33.595  INFO 37158 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-12-21 10:43:34.115  INFO 37158 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'initializr.metadata' created in EhcacheManager.
+2020-12-21 10:43:34.124  INFO 37158 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:43:34.125  INFO 37158 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:43:34.127  INFO 37158 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:43:34.128  INFO 37158 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:43:34.130  INFO 37158 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'initializr.dependency-metadata' created in EhcacheManager.
+2020-12-21 10:43:34.131  INFO 37158 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:43:34.131  INFO 37158 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:43:34.131  INFO 37158 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:43:34.132  INFO 37158 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:43:34.132  INFO 37158 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:43:34.132  INFO 37158 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:43:34.134  INFO 37158 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'initializr.project-resources' created in EhcacheManager.
+2020-12-21 10:43:34.135  INFO 37158 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.project-resources
+2020-12-21 10:43:34.135  INFO 37158 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.project-resources
+2020-12-21 10:43:34.136  INFO 37158 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:43:34.136  INFO 37158 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:43:34.137  INFO 37158 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:43:34.137  INFO 37158 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:43:34.137  INFO 37158 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.project-resources
+2020-12-21 10:43:34.137  INFO 37158 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.project-resources
+2020-12-21 10:43:34.140  INFO 37158 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'initializr.templates' created in EhcacheManager.
+2020-12-21 10:43:34.140  INFO 37158 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.templates
+2020-12-21 10:43:34.141  INFO 37158 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.templates
+2020-12-21 10:43:34.143  INFO 37158 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:43:34.144  INFO 37158 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:43:34.144  INFO 37158 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.templates
+2020-12-21 10:43:34.144  INFO 37158 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.templates
+2020-12-21 10:43:34.144  INFO 37158 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:43:34.144  INFO 37158 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:43:34.145  INFO 37158 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.project-resources
+2020-12-21 10:43:34.145  INFO 37158 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.project-resources
+2020-12-21 10:43:34.266  INFO 37158 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-21 10:43:34.294  INFO 37158 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 20001 (http) with context path ''
+2020-12-21 10:43:34.304  INFO 37158 --- [           main] io.spring.start.site.StartApplication    : Started StartApplication in 2.7 seconds (JVM running for 2.996)
+2020-12-21 10:43:51.361  INFO 37158 --- [io-20001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-21 10:43:51.361  INFO 37158 --- [io-20001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-21 10:43:51.362  INFO 37158 --- [io-20001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
