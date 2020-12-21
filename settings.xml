@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+
+	<mirrors>
+		<mirror>
+			<id>nexus-aliyun</id>
+			<mirrorOf>central</mirrorOf>
+			<name>Nexus aliyun</name>
+			<url>http://maven.aliyun.com/nexus/content/groups/public</url>
+		</mirror>
+	</mirrors>
+	<!-- <proxies>
+		<proxy>
+			<id>qtrj-proxy</id>
+			<active>true</active>
+			<protocol>socks5</protocol>
+			<username></username>
+	<password>proxypass</password>
+	<host>qtrj.i234.me</host>
+	<port>1080</port>
+	<nonProxyHosts>local.net|some.host.com</nonProxyHosts>
+	</proxy>
+	</proxies>
+	-->
+</settings>
