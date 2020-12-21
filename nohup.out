@@ -1,0 +1,287 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.1)
+
+2020-12-21 10:52:43.494  INFO 38808 --- [           main] io.spring.start.site.StartApplication    : Starting StartApplication v0.0.1-SNAPSHOT using Java 11.0.9.1 on fy-ubuntu with PID 38808 (/home/fy/tools/spring-initializr/start-site-exec.jar started by fy in /home/fy/tools/spring-initializr)
+2020-12-21 10:52:43.496  INFO 38808 --- [           main] io.spring.start.site.StartApplication    : No active profile set, falling back to default profiles: default
+2020-12-21 10:52:44.375  INFO 38808 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 20001 (http)
+2020-12-21 10:52:44.382  INFO 38808 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-21 10:52:44.382  INFO 38808 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-21 10:52:44.413  INFO 38808 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-21 10:52:44.413  INFO 38808 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 885 ms
+2020-12-21 10:52:44.948  INFO 38808 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-21 10:52:45.040  INFO 38808 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-12-21 10:52:45.477  INFO 38808 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'initializr.metadata' created in EhcacheManager.
+2020-12-21 10:52:45.487  INFO 38808 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:52:45.488  INFO 38808 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:52:45.490  INFO 38808 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:52:45.491  INFO 38808 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:52:45.494  INFO 38808 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'initializr.dependency-metadata' created in EhcacheManager.
+2020-12-21 10:52:45.494  INFO 38808 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:52:45.494  INFO 38808 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:52:45.495  INFO 38808 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:52:45.495  INFO 38808 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:52:45.495  INFO 38808 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:52:45.495  INFO 38808 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:52:45.498  INFO 38808 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'initializr.project-resources' created in EhcacheManager.
+2020-12-21 10:52:45.499  INFO 38808 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.project-resources
+2020-12-21 10:52:45.499  INFO 38808 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.project-resources
+2020-12-21 10:52:45.500  INFO 38808 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:52:45.500  INFO 38808 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:52:45.500  INFO 38808 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:52:45.500  INFO 38808 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:52:45.500  INFO 38808 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.project-resources
+2020-12-21 10:52:45.500  INFO 38808 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.project-resources
+2020-12-21 10:52:45.503  INFO 38808 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'initializr.templates' created in EhcacheManager.
+2020-12-21 10:52:45.504  INFO 38808 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.templates
+2020-12-21 10:52:45.504  INFO 38808 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.templates
+2020-12-21 10:52:45.506  INFO 38808 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:52:45.506  INFO 38808 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:52:45.506  INFO 38808 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.templates
+2020-12-21 10:52:45.507  INFO 38808 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.templates
+2020-12-21 10:52:45.507  INFO 38808 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:52:45.507  INFO 38808 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:52:45.507  INFO 38808 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.project-resources
+2020-12-21 10:52:45.507  INFO 38808 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.project-resources
+2020-12-21 10:52:45.636  INFO 38808 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-21 10:52:45.673  WARN 38808 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+2020-12-21 10:52:45.676  INFO 38808 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'initializr.dependency-metadata' removed from EhcacheManager.
+2020-12-21 10:52:45.677  INFO 38808 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'initializr.templates' removed from EhcacheManager.
+2020-12-21 10:52:45.677  INFO 38808 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'initializr.metadata' removed from EhcacheManager.
+2020-12-21 10:52:45.677  INFO 38808 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'initializr.project-resources' removed from EhcacheManager.
+2020-12-21 10:52:45.680  INFO 38808 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-21 10:52:45.684  INFO 38808 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-12-21 10:52:45.701  INFO 38808 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-21 10:52:45.723 ERROR 38808 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181) ~[spring-context-5.3.2.jar!/:5.3.2]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.2.jar!/:5.3.2]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.2.jar!/:5.3.2]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.2.jar!/:5.3.2]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.2.jar!/:5.3.2]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:940) ~[spring-context-5.3.2.jar!/:5.3.2]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:591) ~[spring-context-5.3.2.jar!/:5.3.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.1.jar!/:2.4.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767) ~[spring-boot-2.4.1.jar!/:2.4.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759) ~[spring-boot-2.4.1.jar!/:2.4.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426) ~[spring-boot-2.4.1.jar!/:2.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326) ~[spring-boot-2.4.1.jar!/:2.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309) ~[spring-boot-2.4.1.jar!/:2.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298) ~[spring-boot-2.4.1.jar!/:2.4.1]
+	at io.spring.start.site.StartApplication.main(StartApplication.java:54) ~[classes!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49) ~[start-site-exec.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:107) ~[start-site-exec.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58) ~[start-site-exec.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:88) ~[start-site-exec.jar:0.0.1-SNAPSHOT]
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:229) ~[spring-boot-2.4.1.jar!/:2.4.1]
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:43) ~[spring-boot-2.4.1.jar!/:2.4.1]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-5.3.2.jar!/:5.3.2]
+	... 23 common frames omitted
+Caused by: java.lang.IllegalArgumentException: standardService.connector.startFailed
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:244) ~[tomcat-embed-core-9.0.41.jar!/:9.0.41]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:282) ~[spring-boot-2.4.1.jar!/:2.4.1]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:213) ~[spring-boot-2.4.1.jar!/:2.4.1]
+	... 25 common frames omitted
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1067) ~[tomcat-embed-core-9.0.41.jar!/:9.0.41]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.41.jar!/:9.0.41]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:240) ~[tomcat-embed-core-9.0.41.jar!/:9.0.41]
+	... 27 common frames omitted
+Caused by: java.net.BindException: 地址已在使用
+	at java.base/sun.nio.ch.Net.bind0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.bind(Net.java:455) ~[na:na]
+	at java.base/sun.nio.ch.Net.bind(Net.java:447) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80) ~[na:na]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:228) ~[tomcat-embed-core-9.0.41.jar!/:9.0.41]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:211) ~[tomcat-embed-core-9.0.41.jar!/:9.0.41]
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1159) ~[tomcat-embed-core-9.0.41.jar!/:9.0.41]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1245) ~[tomcat-embed-core-9.0.41.jar!/:9.0.41]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:603) ~[tomcat-embed-core-9.0.41.jar!/:9.0.41]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1064) ~[tomcat-embed-core-9.0.41.jar!/:9.0.41]
+	... 29 common frames omitted
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.1)
+
+2020-12-21 10:53:12.157  INFO 38912 --- [           main] io.spring.start.site.StartApplication    : Starting StartApplication v0.0.1-SNAPSHOT using Java 11.0.9.1 on fy-ubuntu with PID 38912 (/home/fy/tools/spring-initializr/start-site-exec.jar started by fy in /home/fy/tools/spring-initializr)
+2020-12-21 10:53:12.159  INFO 38912 --- [           main] io.spring.start.site.StartApplication    : No active profile set, falling back to default profiles: default
+2020-12-21 10:53:13.049  INFO 38912 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 20001 (http)
+2020-12-21 10:53:13.056  INFO 38912 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-21 10:53:13.056  INFO 38912 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-21 10:53:13.093  INFO 38912 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-21 10:53:13.093  INFO 38912 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 903 ms
+2020-12-21 10:53:13.613  INFO 38912 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-21 10:53:13.715  INFO 38912 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-12-21 10:53:14.128  INFO 38912 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'initializr.metadata' created in EhcacheManager.
+2020-12-21 10:53:14.138  INFO 38912 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:53:14.140  INFO 38912 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:53:14.142  INFO 38912 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:53:14.142  INFO 38912 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:53:14.145  INFO 38912 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'initializr.dependency-metadata' created in EhcacheManager.
+2020-12-21 10:53:14.146  INFO 38912 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:53:14.146  INFO 38912 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:53:14.147  INFO 38912 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:53:14.147  INFO 38912 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:53:14.147  INFO 38912 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:53:14.147  INFO 38912 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:53:14.150  INFO 38912 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'initializr.project-resources' created in EhcacheManager.
+2020-12-21 10:53:14.151  INFO 38912 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.project-resources
+2020-12-21 10:53:14.151  INFO 38912 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.project-resources
+2020-12-21 10:53:14.152  INFO 38912 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:53:14.152  INFO 38912 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:53:14.152  INFO 38912 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:53:14.152  INFO 38912 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:53:14.153  INFO 38912 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.project-resources
+2020-12-21 10:53:14.153  INFO 38912 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.project-resources
+2020-12-21 10:53:14.156  INFO 38912 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'initializr.templates' created in EhcacheManager.
+2020-12-21 10:53:14.156  INFO 38912 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.templates
+2020-12-21 10:53:14.156  INFO 38912 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.templates
+2020-12-21 10:53:14.158  INFO 38912 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:53:14.158  INFO 38912 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:53:14.159  INFO 38912 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.templates
+2020-12-21 10:53:14.159  INFO 38912 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.templates
+2020-12-21 10:53:14.159  INFO 38912 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:53:14.159  INFO 38912 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:53:14.159  INFO 38912 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.project-resources
+2020-12-21 10:53:14.159  INFO 38912 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.project-resources
+2020-12-21 10:53:14.263  INFO 38912 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-21 10:53:14.291  INFO 38912 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 20001 (http) with context path ''
+2020-12-21 10:53:14.302  INFO 38912 --- [           main] io.spring.start.site.StartApplication    : Started StartApplication in 2.643 seconds (JVM running for 2.905)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.1)
+
+2020-12-21 10:53:44.629  INFO 39027 --- [           main] io.spring.start.site.StartApplication    : Starting StartApplication v0.0.1-SNAPSHOT using Java 11.0.9.1 on fy-ubuntu with PID 39027 (/home/fy/tools/spring-initializr/start-site-exec.jar started by fy in /home/fy/tools/spring-initializr)
+2020-12-21 10:53:44.631  INFO 39027 --- [           main] io.spring.start.site.StartApplication    : No active profile set, falling back to default profiles: default
+2020-12-21 10:53:45.508  INFO 39027 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 20001 (http)
+2020-12-21 10:53:45.515  INFO 39027 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-21 10:53:45.516  INFO 39027 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-21 10:53:45.553  INFO 39027 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-21 10:53:45.553  INFO 39027 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 891 ms
+2020-12-21 10:53:46.059  INFO 39027 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-21 10:53:46.153  INFO 39027 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-12-21 10:53:46.528  INFO 39027 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'initializr.metadata' created in EhcacheManager.
+2020-12-21 10:53:46.536  INFO 39027 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:53:46.537  INFO 39027 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:53:46.539  INFO 39027 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:53:46.540  INFO 39027 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:53:46.542  INFO 39027 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'initializr.dependency-metadata' created in EhcacheManager.
+2020-12-21 10:53:46.542  INFO 39027 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:53:46.543  INFO 39027 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:53:46.543  INFO 39027 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:53:46.543  INFO 39027 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:53:46.544  INFO 39027 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:53:46.544  INFO 39027 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:53:46.546  INFO 39027 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'initializr.project-resources' created in EhcacheManager.
+2020-12-21 10:53:46.547  INFO 39027 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.project-resources
+2020-12-21 10:53:46.547  INFO 39027 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.project-resources
+2020-12-21 10:53:46.548  INFO 39027 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:53:46.548  INFO 39027 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:53:46.548  INFO 39027 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:53:46.548  INFO 39027 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:53:46.549  INFO 39027 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.project-resources
+2020-12-21 10:53:46.549  INFO 39027 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.project-resources
+2020-12-21 10:53:46.551  INFO 39027 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'initializr.templates' created in EhcacheManager.
+2020-12-21 10:53:46.552  INFO 39027 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.templates
+2020-12-21 10:53:46.552  INFO 39027 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.templates
+2020-12-21 10:53:46.555  INFO 39027 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:53:46.555  INFO 39027 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.dependency-metadata
+2020-12-21 10:53:46.555  INFO 39027 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.templates
+2020-12-21 10:53:46.555  INFO 39027 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.templates
+2020-12-21 10:53:46.555  INFO 39027 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:53:46.555  INFO 39027 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.metadata
+2020-12-21 10:53:46.556  INFO 39027 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheConfiguration,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.project-resources
+2020-12-21 10:53:46.556  INFO 39027 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=initializr.project-resources
+2020-12-21 10:53:46.677  INFO 39027 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-21 10:53:46.708  WARN 39027 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+2020-12-21 10:53:46.712  INFO 39027 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'initializr.dependency-metadata' removed from EhcacheManager.
+2020-12-21 10:53:46.712  INFO 39027 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'initializr.templates' removed from EhcacheManager.
+2020-12-21 10:53:46.712  INFO 39027 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'initializr.metadata' removed from EhcacheManager.
+2020-12-21 10:53:46.712  INFO 39027 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'initializr.project-resources' removed from EhcacheManager.
+2020-12-21 10:53:46.715  INFO 39027 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-21 10:53:46.719  INFO 39027 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-12-21 10:53:46.736  INFO 39027 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-21 10:53:46.756 ERROR 39027 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181) ~[spring-context-5.3.2.jar!/:5.3.2]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.2.jar!/:5.3.2]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.2.jar!/:5.3.2]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.2.jar!/:5.3.2]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.2.jar!/:5.3.2]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:940) ~[spring-context-5.3.2.jar!/:5.3.2]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:591) ~[spring-context-5.3.2.jar!/:5.3.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.1.jar!/:2.4.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767) ~[spring-boot-2.4.1.jar!/:2.4.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759) ~[spring-boot-2.4.1.jar!/:2.4.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426) ~[spring-boot-2.4.1.jar!/:2.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326) ~[spring-boot-2.4.1.jar!/:2.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309) ~[spring-boot-2.4.1.jar!/:2.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298) ~[spring-boot-2.4.1.jar!/:2.4.1]
+	at io.spring.start.site.StartApplication.main(StartApplication.java:54) ~[classes!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49) ~[start-site-exec.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:107) ~[start-site-exec.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58) ~[start-site-exec.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:88) ~[start-site-exec.jar:0.0.1-SNAPSHOT]
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:229) ~[spring-boot-2.4.1.jar!/:2.4.1]
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:43) ~[spring-boot-2.4.1.jar!/:2.4.1]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-5.3.2.jar!/:5.3.2]
+	... 23 common frames omitted
+Caused by: java.lang.IllegalArgumentException: standardService.connector.startFailed
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:244) ~[tomcat-embed-core-9.0.41.jar!/:9.0.41]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:282) ~[spring-boot-2.4.1.jar!/:2.4.1]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:213) ~[spring-boot-2.4.1.jar!/:2.4.1]
+	... 25 common frames omitted
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1067) ~[tomcat-embed-core-9.0.41.jar!/:9.0.41]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.41.jar!/:9.0.41]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:240) ~[tomcat-embed-core-9.0.41.jar!/:9.0.41]
+	... 27 common frames omitted
+Caused by: java.net.BindException: 地址已在使用
+	at java.base/sun.nio.ch.Net.bind0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.bind(Net.java:455) ~[na:na]
+	at java.base/sun.nio.ch.Net.bind(Net.java:447) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80) ~[na:na]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:228) ~[tomcat-embed-core-9.0.41.jar!/:9.0.41]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:211) ~[tomcat-embed-core-9.0.41.jar!/:9.0.41]
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1159) ~[tomcat-embed-core-9.0.41.jar!/:9.0.41]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1245) ~[tomcat-embed-core-9.0.41.jar!/:9.0.41]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:603) ~[tomcat-embed-core-9.0.41.jar!/:9.0.41]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1064) ~[tomcat-embed-core-9.0.41.jar!/:9.0.41]
+	... 29 common frames omitted
+
