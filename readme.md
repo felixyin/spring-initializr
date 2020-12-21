@@ -13,7 +13,7 @@
 浏览器访问：
 
 - http://localhost:8080
-- http://localhost:20001(my machine)
+- http://localhost:20001  (my machine)
 
 ## 手动编译最新版本
 
